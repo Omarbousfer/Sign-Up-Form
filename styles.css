@@ -12,6 +12,8 @@ main {
     display: flex;
 }
 
+/*--------------------------------------------------------------------*/
+
 .left {
     width: 40%;
     background-image: url(background-image.jpg);
@@ -58,4 +60,93 @@ main {
 
 .text p:first-child {
     margin-bottom: 50px;
+}
+.text p:last-child {
+    margin-bottom: 80px;
+}
+/*--------------------------------------------------------------------*/
+
+.form {
+    background-color: #913175;
+    height: 400px;
+    padding-top: 20px;
+}
+
+.form p {
+    margin: 40px 0;
+    padding-left: 60px;
+    color: #E9E8E8;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+}
+
+form div:last-child {
+    margin-left: 60px;
+}
+
+input {
+    margin-bottom: 30px;
+    margin-top: 5px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #E9E8E8;
+    background-color: #e44fb7;
+    color: #E9E8E8;
+    font-size: 1rem;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid #20262E;
+}
+
+label {
+    color: #E9E8E8;
+}
+
+/*--------------------------------------------------------------------*/
+
+.button {
+    padding-left: 60px;
+    padding-top: 40px;
+}
+
+button {
+    margin-bottom: 40px;
+    padding: 15px 60px;
+    border-radius: 8px;
+    border: none;
+    background-color: #CD5888;
+    color: #E9E8E8;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color, 1s;
+}
+
+button:hover {
+    background-color: #913175;
+}
+
+.button p {
+    color: #E9E8E8;
+    font-size: 1.1rem;
+}
+
+.button a {
+    text-decoration: none;
+    color: #CD5888;
+    font-weight: 600;
+    margin-left: 5px;
 }
